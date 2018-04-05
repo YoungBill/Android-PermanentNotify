@@ -1,4 +1,4 @@
-package com.android.permanentnotify;
+package com.android.remoteviews;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.android.permanentnotify;
+package com.android.remoteviews;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.android.permanentnotify", appContext.getPackageName());
+        assertEquals("com.android.remoteviews", appContext.getPackageName());
     }
 }

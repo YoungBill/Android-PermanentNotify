@@ -1,4 +1,4 @@
-package com.android.permanentnotify;
+package com.android.remoteviews;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -137,7 +137,7 @@ public class PermanentNotifyManager {
                             if (mContext != null) {
                                 Intent logoIntent = new Intent();
                                 logoIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                                logoIntent.setClassName(mContext.getPackageName(), "com.android.permanentnotify.MainActivity");
+                                logoIntent.setClassName(mContext.getPackageName(), "com.android.remoteviews.MainActivity");
                                 context.startActivity(logoIntent);
                             }
 
