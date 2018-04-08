@@ -17,6 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".PermanentNotifyActivity" />
+
+        <receiver
+            android:name=".MyAppWidgetProvider"
+            android:label="哈哈">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_provider_info" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.android.remoteviews.action.click" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
